@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalifa Sanogo | Développeur Fullstack</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="bg-animation">
+        <div class="orb orb-1"></div>
+        <div class="orb orb-2"></div>
+        <div class="orb orb-3"></div>
+    </div>
+
+    <nav id="navbar">
+        <div class="logo">
+            <img src="images/SK11.png" alt="Logo">
+            K-Sanogo
+        </div>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#home">Accueil</a></li>
+            <li><a href="#about">À propos</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#projects">Projets</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="menu-toggle" id="menuToggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    <section class="hero" id="home">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-badge">Disponible pour missions freelance</div>
+                <h1>Bonjour, je suis <span class="gradient-text">Kalifa Sanogo</span></h1>
+                <p class="hero-subtitle">Développeur Fullstack</p>
+                <p class="hero-description">Passionné par la création de solutions web et mobiles innovantes. Je transforme vos idées en réalité numérique.</p>
+                <div class="hero-cta">
+                    <a href="CV/CV_Kalifa_Sanogo.pdf" 
+                        title="Téléchargez mon CV en format classique !" 
+                        download="CV_Kalifa_Sanogo.pdf"
+                        aria-label="Télécharger mon CV" 
+                        class="btn btn-primary">
+                        Télécharger CV
+                    </a>
+                    <a href="#contact" class="btn btn-secondary">Me contacter</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="hero-image-wrapper">
+                    <div class="hero-image-slideshow">
+                        <img src="images/P11.png" alt="Kalifa Sanogo">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse"></div>
+            <span>Défiler</span>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="section-header reveal">
+            <span class="section-label">À propos</span>
+            <h2>Mon parcours</h2>
+            <p>Un informaticien passionné spécialisé dans la création de solutions numérique.</p>
+        </div>
+        <div class="about-grid">
+            <div class="about-image reveal">
+                <div class="image-wrapper">
+                    <img src="images/P5.png" alt="Kalifa Sanogo">
+                </div>
+            </div>
+            <div class="about-content reveal">
+                <h3>Transformons vos idées en réalité</h3>
+                <p>
+                    Je suis un informaticien passionné, spécialisé dans la création de solutions web et mobiles. 
+                    J'ai eu l'opportunité d'effectuer un stage au sein de la Direction des Systèmes d'Informations
+                    de <span class="highlight">l'Énergie du Mali</span> (EDM-SA), où j'ai travaillé au sein du Département des 
+                    Infrastructures et Réseaux SI ainsi que dans le Département de Production et Support.
+                </p>
+                <p>
+                    J'ai également suivi une formation en développement Web et Mobile à <span class="highlight">Orange Digital Kalanso</span>, 
+                    où j'ai acquis des compétences solides en développement et en gestion de projets numériques.
+                    Diplômé en <span class="highlight">Génie Logiciel et Développement Web</span>, ainsi qu'en <span class="highlight">Assurance Banque et Finance</span>, 
+                    je suis également en formation <span class="highlight">autodidacte</span> depuis plusieurs ans.
+                </p>
+                <p>
+                    <span class="highlight">Curieux</span>, <span class="highlight">pragmatique</span> et <span class="highlight">motivé</span>, 
+                    je suis prêt à relever de nouveaux défis et à mettre mon expertise au service de vos projets.
+                </p>
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <div class="stat-number">3+</div>
+                        <div class="stat-label">Années d'expérience</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">9+</div>
+                        <div class="stat-label">Projets réalisés</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">6+</div>
+                        <div class="stat-label">Services</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">100%</div>
+                        <div class="stat-label">Passionné</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="services" id="services">
+        <div class="section-header reveal">
+            <span class="section-label">Services</span>
+            <h2>Mes services</h2>
+            <p>Avec une bonne maîtrise des technologies modernes, je vous propose des solutions sur mesure.</p>
+        </div>
+        <div class="services-container">
+            <div class="services-grid">
+                <div class="service-card reveal">
+                    <div class="service-icon">🌐</div>
+                    <h3>Développement Web</h3>
+                    <p>Création de sites web performants et responsives avec les dernières technologies.</p>
+                </div>
+                <div class="service-card reveal">
+                    <div class="service-icon">📱</div>
+                    <h3>Développement Mobile</h3>
+                    <p>Applications mobiles natives et cross-platform pour iOS et Android.</p>
+                </div>
+                <div class="service-card reveal">
+                    <div class="service-icon">🎨</div>
+                    <h3>Web Design & UI/UX</h3>
+                    <p>Design d'interfaces modernes et expériences utilisateur optimisées.</p>
+                </div>
+                <div class="service-card reveal">
+                    <div class="service-icon">✏️</div>
+                    <h3>Design Graphique</h3>
+                    <p>Création de logos, affiches, flyers et cartes de visite personnalisés.</p>
+                </div>
+                <div class="service-card reveal">
+                    <div class="service-icon">👔</div>
+                    <h3>Chef de Projet Digital</h3>
+                    <p>Gestion et coordination de vos projets numériques de A à Z.</p>
+                </div>
+                <div class="service-card reveal">
+                    <div class="service-icon">📦</div>
+                    <h3>Gestion de Produits Numériques</h3>
+                    <p>Conception et gestion de produits digitaux de la planification à la livraison.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="projects" id="projects">
+        <div class="section-header reveal">
+            <span class="section-label">Projets & Compétences</span>
+            <h2>Mes réalisations</h2>
+            <p>Une sélection de mes projets récents avec les technologies utilisées.</p>
+        </div>
+        <div class="projects-grid">
+            <div class="project-card reveal">
+                <div class="project-image">
+                    <img src="images/gros.png" alt="Application Mobile">
+                    <div class="project-overlay">
+                        <a href="#" class="btn btn-primary">Voir détails</a>
+                    </div>
+                </div>
+                <div class="project-content">
+                    <h3>Application Mobile de Partage et Sensibilisation</h3>
+                    <p>Application permettant aux utilisateurs d'échanger et de sensibiliser sur des enjeux importants.</p>
+                    <div class="project-tags">
+                        <span class="project-tag">Développement Mobile</span>
+                    </div>
+                    <div class="project-skills">
+                        <span class="skill-tech">Flutter</span>
+                        <span class="skill-tech">Dart</span>
+                        <span class="skill-tech">Firebase</span>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card reveal">
+                <div class="project-image">
+                    <img src="images/project-5.jpg" alt="Maquette Figma">
+                    <div class="project-overlay">
+                        <a href="#" class="btn btn-primary">Voir détails</a>
+                    </div>
+                </div>
+                <div class="project-content">
+                    <h3>Maquette d'une Application Mobile</h3>
+                    <p>Design et prototypage d'une application mobile sur Figma.</p>
+                    <div class="project-tags">
+                        <span class="project-tag">Figma</span>
+                        <span class="project-tag">UI/UX</span>
+                    </div>
+                    <div class="project-skills">
+                        <span class="skill-tech">Figma</span>
+                        <span class="skill-tech">Angular</span>
+                        <span class="skill-tech">Wireframing</span>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card reveal">
+                <div class="project-image">
+                    <img src="images/project-1.jpg" alt="Design Interactif">
+                    <div class="project-overlay">
+                        <a href="#" class="btn btn-primary">Voir détails</a>
+                    </div>
+                </div>
+                <div class="project-content">
+                    <h3>Conception de Design Interactif</h3>
+                    <p>Création d'interfaces utilisateur modernes et interactives.</p>
+                    <div class="project-tags">
+                        <span class="project-tag">UI/UX</span>
+                        <span class="project-tag">Design</span>
+                    </div>
+                    <div class="project-skills">
+                        <span class="skill-tech">Canva</span>
+                        <span class="skill-tech">Photoshop</span>
+                        <span class="skill-tech">Django</span>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card reveal">
+                <div class="project-image">
+                    <img src="images/Nkaso.png" alt="Logo Nkaso">
+                    <div class="project-overlay">
+                        <a href="#" class="btn btn-primary">Voir détails</a>
+                    </div>
+                </div>
+                <div class="project-content">
+                    <h3>Création de Logo Personnalisé</h3>
+                    <p>Design de logo unique et mémorable pour marque.</p>
+                    <div class="project-tags">
+                        <span class="project-tag">Logo</span>
+                        <span class="project-tag">Branding</span>
+                    </div>
+                    <div class="project-skills">
+                        <span class="skill-tech">Canva</span>
+                        <span class="skill-tech">Illustrator</span>
+                        <span class="skill-tech">Photoshop</span>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card reveal">
+                <div class="project-image">
+                    <img src="images/cap.png" alt="Site Vitrine">
+                    <div class="project-overlay">
+                        <a href="#" class="btn btn-primary">Voir détails</a>
+                    </div>
+                </div>
+                <div class="project-content">
+                    <h3>Site Vitrine Publicitaire</h3>
+                    <p>Création de site web vitrine pour promouvoir vos services.</p>
+                    <div class="project-tags">
+                        <span class="project-tag">Développement Web</span>
+                    </div>
+                    <div class="project-skills">
+                        <span class="skill-tech">HTML</span>
+                        <span class="skill-tech">CSS</span>
+                        <span class="skill-tech">JavaScript</span>
+                        <span class="skill-tech">WordPress</span>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card reveal">
+                <div class="project-image">
+                    <img src="images/dash.png" alt="Dashboard">
+                    <div class="project-overlay">
+                        <a href="#" class="btn btn-primary">Voir détails</a>
+                    </div>
+                </div>
+                <div class="project-content">
+                    <h3>Tableau de Bord Interactif</h3>
+                    <p>Création de dashboards pour la visualisation de données.</p>
+                    <div class="project-tags">
+                        <span class="project-tag">Développement Web</span>
+                        <span class="project-tag">Data Viz</span>
+                    </div>
+                    <div class="project-skills">
+                        <span class="skill-tech">Spring Boot</span>
+                        <span class="skill-tech">Odoo</span>
+                        <span class="skill-tech">Python</span>
+                        <span class="skill-tech">Java</span>
+                        <span class="skill-tech">Php</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="online-projects">
+        <div class="section-header reveal">
+            <span class="section-label">Sites en ligne</span>
+            <h2>Projets en production</h2>
+            <p>Découvrez mes projets déployés et accessibles en ligne.</p>
+        </div>
+        <div class="online-projects-grid">
+            <div class="online-project-card reveal">
+                <div class="online-project-image">
+                    <img src="images/nka.png" alt="N'Ka Sow">
+                </div>
+                <div class="online-project-content">
+                    <h3>N'Ka Sow</h3>
+                    <p>Plateforme moderne de gestion immobilière, conçue pour centraliser les opérations et assurer la transparence.</p>
+                    <a href="https://levieux.agroinnov.pro/" target="_blank" class="online-project-link">
+                        Visiter le site →
+                    </a>
+                </div>
+            </div>
+            <div class="online-project-card reveal">
+                <div class="online-project-image">
+                    <img src="images/image_2.jpg" alt="ODK">
+                </div>
+                <div class="online-project-content">
+                    <h3>ODK - Orange Digital Kalanso</h3>
+                    <p>Site vitrine dédié à la promotion de la formation en développement Web et mobile.</p>
+                    <a href="https://odk-p4-sk.netlify.app/?page_id=11" target="_blank" class="online-project-link">
+                        Visiter le site →
+                    </a>
+                </div>
+            </div>
+            <div class="online-project-card reveal">
+                <div class="online-project-image">
+                    <img src="images/maaya.png" alt="Maaya En Ka Kuma">
+                </div>
+                <div class="online-project-content">
+                    <h3>Maaya En Ka Kuma</h3>
+                    <p>Application permettant aux utilisateurs d'échanger et de sensibiliser sur des enjeux importants.</p>
+                    <a href="https://maayakuma.netlify.app" target="_blank" class="online-project-link">
+                        Visiter le site →
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="hire-me" id="hire">
+        <div class="hire-me-content reveal">
+            <h2>Disponible <span class="gradient-text">pour des missions</span> freelance</h2>
+            <p>Vous avez un projet en tête ? Discutons ensemble de vos besoins et voyons comment je peux vous aider.</p>
+            <a href="#contact" class="btn btn-primary">Engagez-moi</a>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="section-header reveal">
+            <span class="section-label">Contact</span>
+            <h2>Me contacter</h2>
+            <p>N'hésitez pas à me contacter pour discuter des projets.</p>
+        </div>
+        <div class="contact-container">
+            <div class="contact-info reveal">
+                <h3>Parlons de votre projet</h3>
+                <div class="contact-items">
+                    <a href="https://maps.google.com/?q=Bamako+Mali" target="_blank" class="contact-item">
+                        <div class="contact-item-icon">📍</div>
+                        <div class="contact-item-text">
+                            <div class="label">Localisation</div>
+                            <div class="value">Bamako / Mali</div>
+                        </div>
+                    </a>
+                    <a href="tel:+22378327030" class="contact-item">
+                        <div class="contact-item-icon">📱</div>
+                        <div class="contact-item-text">
+                            <div class="label">Téléphone</div>
+                            <div class="value">+223 78 32 70 30</div>
+                        </div>
+                    </a>
+                    <a href="mailto:kalifasanogo20@gmail.com" target="_blank" class="contact-item">
+                        <div class="contact-item-icon">✉️</div>
+                        <div class="contact-item-text">
+                            <div class="label">Email</div>
+                            <div class="value">kalifasanogo20@gmail.com</div>
+                        </div>
+                    </a>
+                    <a href="https://github.com/Sa-Kalifa" target="_blank" class="contact-item">
+                        <div class="contact-item-icon"><i class="fab fa-github"></i></div>
+                        <div class="contact-item-text">
+                            <div class="label">GitHub</div>
+                            <div class="value">Sa-Kalifa</div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo-wrapper">
+                <img src="images/SK11.png" alt="Logo SK11" class="footer-logo-img">
+                <span class="footer-logo-text">K-Sanogo</span>
+            </div>
+            <div class="social-links">
+                <a href="https://github.com/Sa-Kalifa" target="_blank" title="GitHub">GH</a>
+                <a href="mailto:kalifasanogo20@gmail.com" target="_blank" title="Email">EM</a>
+                <a href="tel:+22378327030" title="Téléphone">TL</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Kalifa Sanogo. Tous droits réservés.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
